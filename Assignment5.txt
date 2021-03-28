@@ -1,0 +1,30 @@
+Assignment 5: File Cleaner
+Due 10/02/2018
+
+Create an application that reads a file that contains an email list, reformats the data, and writes the cleaned list to another file.
+
+Console
+File Cleaner
+
+Source file:  prospects.csv
+Cleaned file: prospects_clean.csv
+
+Congratulations! Your file has been cleaned!
+The prospect.csv file
+FIRST,LAST,EMAIL
+james,butler,jbutler@gmail.com
+Josephine  ,Darakjy,josephine_darakjy@darakjy.org
+ART,VENERE,ART@VENERE.ORG
+...
+The prospect_clean.csv file
+First,Last,email
+James,Butler,jbutler@gmail.com
+Josephine,Darakjy,josephine_darakjy@darakjy.org
+Art,Venere,art@venere.org
+...
+Specifications
+Your instructor should provide a CSV file named prospects.csv that contains a list of prospects.
+Your application should fix the formatting problems and write a file named prospects_clean.csv.
+All names should use title case (an initial capital letter with the rest lowercase).
+All email addresses should be lowercase.
+All extra spaces at the start or end of a string should be removed.
